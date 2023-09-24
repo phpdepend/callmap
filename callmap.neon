@@ -1,0 +1,19 @@
+includes:
+	- phar://phpstan.phar/conf/bleedingEdge.neon
+
+parameters:
+	customRulesetUsed: true
+	errorFormat: callmap
+	paths:
+		- src
+
+rules:
+	- StellaMaris\Callmap\Rule
+
+services:
+	errorFormatter.callmap:
+		class: StellaMaris\Callmap\CallmapFormatter
+	-
+		class: StellaMaris\Callmap\MethodCallCollector
+		tags:
+			- phpstan.collector

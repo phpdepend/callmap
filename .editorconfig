@@ -1,0 +1,17 @@
+root = true
+
+[*]
+end_of_line = lf
+indent_size = tab
+indent_style = tab
+tab_width = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 120
+charset = utf-8
+
+[COMMIT_EDITMSG]
+max_line_length = 72
+
+[*.json]
+tab_width = 2

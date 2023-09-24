@@ -1,0 +1,7 @@
+includes:
+- ./callmap.neon
+
+parameters:
+	level: 8
+	paths:
+	- src
