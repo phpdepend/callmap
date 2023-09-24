@@ -13,3 +13,25 @@ The package itself is a plugin to pPHPStan.
 
 ## Installation
 
+Install via composer
+
+```bash
+composer require --dev stella-maris/callmap
+```
+
+## Usage
+
+Run via [PHPStan](https://phpstan.org)
+
+```bash
+./vendor/bin/phpstan analyse -c vendor/stella-maris/callmap/callmap.neon <path/to/your/sources>
+```
+
+This will create a JSON containing an array of objects that can be used to create a map of method-calls
+
+The Objects contain these attributes:
+
+* callingClass
+* callingMethod
+* calledClass
+* calledMethod
