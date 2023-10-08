@@ -1,14 +1,37 @@
 {
-  "name": "stella-maris/callmap",
-  "description": "PHPStan Plugin to collect method-calls for further processing",
-  "license": "GPL-3.0-or-later",
-  "require": {
-    "php": "^8.2",
-		"phpstan/phpstan": "1.11.x-dev"
-  },
-  "autoload": {
-    "psr-4": {
-      "StellaMaris\\Callmap\\": "src/"
-    }
-  }
+	"name": "stella-maris/callmap",
+	"description": "PHPStan Plugin to collect method-calls for further processing",
+	"license": "GPL-3.0-or-later",
+	"type": "phpstan-extension",
+	"keywords": [
+		"dev",
+		"static analysis",
+		"callmap",
+		"class",
+		"method",
+		"architecture",
+		"dependency",
+		"phpstan",
+		"plugin"
+	],
+	"require": {
+		"php": "^8.2",
+		"phpstan/phpstan": "^1.11"
+	}
+	,
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
+	"autoload": {
+		"psr-4": {
+			"StellaMaris\\Callmap\\": "src/"
+		}
+	},
+	"extra": {
+		"phpstan": {
+			"includes": [
+				"callmap.neon"
+			]
+		}
+	}
 }
