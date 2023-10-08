@@ -7,6 +7,7 @@ use PHPStan\Command\ErrorFormatter\ErrorFormatter;
 use PHPStan\Command\ErrorFormatter\TableErrorFormatter;
 use PHPStan\Command\Output;
 use PHPStan\File\RelativePathHelper;
+use function file_put_contents;
 
 class CallmapFormatter implements ErrorFormatter
 {
@@ -39,7 +40,7 @@ class CallmapFormatter implements ErrorFormatter
 			];
 		}
 
-		$output->writeRaw((string) json_encode([
+		file_put_contents( 'callmap.json', (string) json_encode([
 			'data' => $json,
 		]));
 
