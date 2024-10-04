@@ -1,0 +1,184 @@
+{
+	"data": [
+		{
+			"callingClass": "PHPStan\\PharAutoloader",
+			"callingMethod": "loadClass",
+			"calledClass": "stdClass",
+			"calledMethod": "loadClass"
+		},
+		{
+			"callingClass": "Composer\\Autoload\\ClassLoader",
+			"callingMethod": "loadClass",
+			"calledClass": "Composer\\Autoload\\ClassLoader",
+			"calledMethod": "findFile"
+		},
+		{
+			"callingClass": "Composer\\Autoload\\ClassLoader",
+			"callingMethod": "findFile",
+			"calledClass": "Composer\\Autoload\\ClassLoader",
+			"calledMethod": "findFileWithExtension"
+		},
+		{
+			"callingClass": "Composer\\Autoload\\ClassLoader",
+			"callingMethod": "findFile",
+			"calledClass": "Composer\\Autoload\\ClassLoader",
+			"calledMethod": "findFileWithExtension"
+		},
+		{
+			"callingClass": "ComposerAutoloaderInitdaea5d123a8e9ebaecc46f55252bfb7c",
+			"callingMethod": "getLoader",
+			"calledClass": "Composer\\Autoload\\ClassLoader",
+			"calledMethod": "register"
+		},
+		{
+			"callingClass": "Composer\\InstalledVersions",
+			"callingMethod": "satisfies",
+			"calledClass": "",
+			"calledMethod": "parseConstraints"
+		},
+		{
+			"callingClass": "Composer\\InstalledVersions",
+			"callingMethod": "satisfies",
+			"calledClass": "",
+			"calledMethod": "parseConstraints"
+		},
+		{
+			"callingClass": "Composer\\InstalledVersions",
+			"callingMethod": "satisfies",
+			"calledClass": "stdClass",
+			"calledMethod": "matches"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\MethodCallCollector",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Analyser\\Scope",
+			"calledMethod": "getType"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\MethodCallCollector",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Reflection\\ClassReflection",
+			"calledMethod": "getName"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\MethodCallCollector",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Reflection\\ClassMemberReflection",
+			"calledMethod": "getDeclaringClass"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\MethodCallCollector",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Analyser\\Scope",
+			"calledMethod": "getMethodReflection"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\MethodCallCollector",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Analyser\\Scope",
+			"calledMethod": "getFunction"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\MethodCallCollector",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Reflection\\Php\\PhpFunctionFromParserNodeReflection",
+			"calledMethod": "getName"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\MethodCallCollector",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Reflection\\ClassReflection",
+			"calledMethod": "getName"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\MethodCallCollector",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Reflection\\ClassMemberReflection",
+			"calledMethod": "getDeclaringClass"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\Rule",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Node\\CollectedDataNode",
+			"calledMethod": "get"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\Rule",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Rules\\RuleErrorBuilder",
+			"calledMethod": "build"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\Rule",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Rules\\RuleErrorBuilder",
+			"calledMethod": "metadata"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\Rule",
+			"callingMethod": "processNode",
+			"calledClass": "PHPStan\\Rules\\RuleErrorBuilder",
+			"calledMethod": "identifier"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Command\\AnalysisResult",
+			"calledMethod": "hasInternalErrors"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Command\\ErrorFormatter\\TableErrorFormatter",
+			"calledMethod": "formatErrors"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Command\\AnalysisResult",
+			"calledMethod": "hasInternalErrors"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Command\\ErrorFormatter\\TableErrorFormatter",
+			"calledMethod": "formatErrors"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Command\\AnalysisResult",
+			"calledMethod": "getFileSpecificErrors"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Analyser\\Error",
+			"calledMethod": "getIdentifier"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Analyser\\Error",
+			"calledMethod": "getIdentifier"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Analyser\\Error",
+			"calledMethod": "getIdentifier"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Command\\ErrorFormatter\\TableErrorFormatter",
+			"calledMethod": "formatErrors"
+		},
+		{
+			"callingClass": "StellaMaris\\Callmap\\CallmapFormatter",
+			"callingMethod": "formatErrors",
+			"calledClass": "PHPStan\\Analyser\\Error",
+			"calledMethod": "getMetadata"
+		}
+	]
+}

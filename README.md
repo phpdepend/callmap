@@ -35,3 +35,5 @@ The Objects contain these attributes:
 * callingMethod
 * calledClass
 * calledMethod
+
+The file `callmap.json` is the callmap file for this plugin.
