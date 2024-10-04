@@ -1,18 +1,11 @@
 <?php declare(strict_types = 1);
 
-namespace StellaMaris\Callmap;
+namespace PHPDepend\Callmap;
 
 use PhpParser\Node;
 use PHPStan\Analyser\Scope;
 use PHPStan\Node\CollectedDataNode;
-use PHPStan\Reflection\ReflectionProvider;
 use PHPStan\Rules\RuleErrorBuilder;
-use function array_pop;
-use function array_unique;
-use function array_values;
-use function in_array;
-use function json_encode;
-use function var_dump;
 
 /**
  * @implements \PHPStan\Rules\Rule<CollectedDataNode>

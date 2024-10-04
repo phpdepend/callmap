@@ -8,12 +8,12 @@ parameters:
 		- src
 
 rules:
-	- StellaMaris\Callmap\Rule
+	- PHPDepend\Callmap\Rule
 
 services:
 	errorFormatter.callmap:
-		class: StellaMaris\Callmap\CallmapFormatter
+		class: PHPDepend\Callmap\CallmapFormatter
 	-
-		class: StellaMaris\Callmap\MethodCallCollector
+		class: PHPDepend\Callmap\MethodCallCollector
 		tags:
 			- phpstan.collector

@@ -1,4 +1,4 @@
-Copyright (C) 2023 Andreas Heigl<andreas@stella-maris.solutions>
+Copyright (C) 2024 PHPDepend <info@phpdepend.org>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

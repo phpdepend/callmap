@@ -16,7 +16,7 @@ The package itself is a plugin to pPHPStan.
 Install via composer
 
 ```bash
-composer require --dev stella-maris/callmap
+composer require --dev phpdepend/callmap
 ```
 
 ## Usage
@@ -24,10 +24,12 @@ composer require --dev stella-maris/callmap
 Run via [PHPStan](https://phpstan.org)
 
 ```bash
-./vendor/bin/phpstan analyse -c vendor/stella-maris/callmap/callmap.neon <path/to/your/sources>
+./vendor/bin/phpstan analyse -c vendor/phpdepend/callmap/callmap.neon <path/to/your/sources>
 ```
 
-This will create a JSON containing an array of objects that can be used to create a map of method-calls
+This will create a JSON containing an array of objects that can be used to create a map of method-calls.
+There will be one entry per call. If one method is called multiple times from a method, there will be
+one entry per single call.
 
 The Objects contain these attributes:
 

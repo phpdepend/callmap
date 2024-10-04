@@ -6,7 +6,7 @@
  * Licensed under the GPLv3. For the full License Notice see the LICENSE.md file in the root directory
  */
 
-namespace StellaMaris\Callmap;
+namespace PHPDepend\Callmap;
 
 use LogicException;
 use PhpParser\Node;
@@ -14,9 +14,6 @@ use PhpParser\Node\Expr\MethodCall;
 use PHPStan\Analyser\Scope;
 use PHPStan\Collectors\Collector;
 use PHPStan\Reflection\ExtendedMethodReflection;
-use function get_class;
-use function json_encode;
-use function print_r;
 
 /**
  * @implements Collector<MethodCall, array{callingClass?: string, callingMethod: string, calledClass: string, calledMethod: string}>

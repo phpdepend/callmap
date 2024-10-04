@@ -1,5 +1,5 @@
 {
-	"name": "stella-maris/callmap",
+	"name": "phpdepend/callmap",
 	"description": "PHPStan Plugin to collect method-calls for further processing",
 	"license": "GPL-3.0-or-later",
 	"type": "phpstan-extension",
@@ -23,7 +23,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"StellaMaris\\Callmap\\": "src/"
+			"PHPDepend\\Callmap\\": "src/"
 		}
 	},
 	"extra": {
@@ -34,6 +34,6 @@
 		}
 	},
 	"suggest": {
-		"stella-maris/callmap-cli": "*"
+		"phpdepend/phpdepend": "*"
 	}
 }

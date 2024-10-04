@@ -1,12 +1,11 @@
 <?php declare(strict_types = 1);
 
-namespace StellaMaris\Callmap;
+namespace PHPDepend\Callmap;
 
 use PHPStan\Command\AnalysisResult;
 use PHPStan\Command\ErrorFormatter\ErrorFormatter;
 use PHPStan\Command\ErrorFormatter\TableErrorFormatter;
 use PHPStan\Command\Output;
-use PHPStan\File\RelativePathHelper;
 use function file_put_contents;
 
 class CallmapFormatter implements ErrorFormatter
