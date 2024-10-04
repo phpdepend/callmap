@@ -26,7 +26,7 @@ class CallmapFormatter implements ErrorFormatter
 			if ($error->getIdentifier() === 'ignore.unmatchedLine' || $error->getIdentifier() === 'ignore.unmatchedIdentifier') {
 				continue;
 			}
-			if ($error->getIdentifier() !== 'stellamarisCallmapFormatter.data') {
+			if ($error->getIdentifier() !== 'phpdependCallmapFormatter.data') {
 				return $this->tableErrorFormatter->formatErrors($analysisResult, $output);
 			}
 

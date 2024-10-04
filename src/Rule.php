@@ -29,7 +29,7 @@ class Rule implements \PHPStan\Rules\Rule
 		foreach ($node->get(MethodCallCollector::class) as $rows) {
 			foreach ($rows as $row) {
 				$errors[] = RuleErrorBuilder::message('Metadata')
-					->identifier('stellamarisCallmapFormatter.data')
+					->identifier('phpdependCallmapFormatter.data')
 					->metadata($row)->build();
 			}
 		}

@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "callingClass": "PHPStan\\PharAutoloader",
+      "callingMethod": "loadClass",
+      "calledClass": "stdClass",
+      "calledMethod": "loadClass"
+    },
+    {
+      "callingClass": "Composer\\Autoload\\ClassLoader",
+      "callingMethod": "loadClass",
+      "calledClass": "Composer\\Autoload\\ClassLoader",
+      "calledMethod": "findFile"
+    },
+    {
+      "callingClass": "Composer\\Autoload\\ClassLoader",
+      "callingMethod": "findFile",
+      "calledClass": "Composer\\Autoload\\ClassLoader",
+      "calledMethod": "findFileWithExtension"
+    },
+    {
+      "callingClass": "Composer\\Autoload\\ClassLoader",
+      "callingMethod": "findFile",
+      "calledClass": "Composer\\Autoload\\ClassLoader",
+      "calledMethod": "findFileWithExtension"
+    },
+    {
+      "callingClass": "ComposerAutoloaderInitdaea5d123a8e9ebaecc46f55252bfb7c",
+      "callingMethod": "getLoader",
+      "calledClass": "Composer\\Autoload\\ClassLoader",
+      "calledMethod": "register"
+    },
+    {
+      "callingClass": "Composer\\InstalledVersions",
+      "callingMethod": "satisfies",
+      "calledClass": "",
+      "calledMethod": "parseConstraints"
+    },
+    {
+      "callingClass": "Composer\\InstalledVersions",
+      "callingMethod": "satisfies",
+      "calledClass": "",
+      "calledMethod": "parseConstraints"
+    },
+    {
+      "callingClass": "Composer\\InstalledVersions",
+      "callingMethod": "satisfies",
+      "calledClass": "stdClass",
+      "calledMethod": "matches"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\MethodCallCollector",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Analyser\\Scope",
+      "calledMethod": "getType"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\MethodCallCollector",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Reflection\\ClassReflection",
+      "calledMethod": "getName"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\MethodCallCollector",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Reflection\\ClassMemberReflection",
+      "calledMethod": "getDeclaringClass"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\MethodCallCollector",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Analyser\\Scope",
+      "calledMethod": "getMethodReflection"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\MethodCallCollector",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Analyser\\Scope",
+      "calledMethod": "getFunction"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\MethodCallCollector",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Reflection\\Php\\PhpFunctionFromParserNodeReflection",
+      "calledMethod": "getName"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\MethodCallCollector",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Reflection\\ClassReflection",
+      "calledMethod": "getName"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\MethodCallCollector",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Reflection\\ClassMemberReflection",
+      "calledMethod": "getDeclaringClass"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\Rule",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Node\\CollectedDataNode",
+      "calledMethod": "get"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\Rule",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Rules\\RuleErrorBuilder",
+      "calledMethod": "build"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\Rule",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Rules\\RuleErrorBuilder",
+      "calledMethod": "metadata"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\Rule",
+      "callingMethod": "processNode",
+      "calledClass": "PHPStan\\Rules\\RuleErrorBuilder",
+      "calledMethod": "identifier"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\CallmapFormatter",
+      "callingMethod": "formatErrors",
+      "calledClass": "PHPStan\\Command\\AnalysisResult",
+      "calledMethod": "hasInternalErrors"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\CallmapFormatter",
+      "callingMethod": "formatErrors",
+      "calledClass": "PHPStan\\Command\\ErrorFormatter\\TableErrorFormatter",
+      "calledMethod": "formatErrors"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\CallmapFormatter",
+      "callingMethod": "formatErrors",
+      "calledClass": "PHPStan\\Command\\AnalysisResult",
+      "calledMethod": "getFileSpecificErrors"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\CallmapFormatter",
+      "callingMethod": "formatErrors",
+      "calledClass": "PHPStan\\Analyser\\Error",
+      "calledMethod": "getIdentifier"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\CallmapFormatter",
+      "callingMethod": "formatErrors",
+      "calledClass": "PHPStan\\Analyser\\Error",
+      "calledMethod": "getIdentifier"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\CallmapFormatter",
+      "callingMethod": "formatErrors",
+      "calledClass": "PHPStan\\Analyser\\Error",
+      "calledMethod": "getIdentifier"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\CallmapFormatter",
+      "callingMethod": "formatErrors",
+      "calledClass": "PHPStan\\Command\\ErrorFormatter\\TableErrorFormatter",
+      "calledMethod": "formatErrors"
+    },
+    {
+      "callingClass": "PHPDepend\\Callmap\\CallmapFormatter",
+      "callingMethod": "formatErrors",
+      "calledClass": "PHPStan\\Analyser\\Error",
+      "calledMethod": "getMetadata"
+    }
+  ]
+}
