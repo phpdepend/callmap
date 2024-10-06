@@ -27,9 +27,9 @@ class MethodCallCollector implements Collector
 
     public function processNode(Node $node, Scope $scope)
     {
-		$methodName = $node->name;
+	    $methodName = $node->name;
 	    if (! $methodName instanceof Node\Identifier) {
-		    throw new LogicException('WTF');
+		    return [];
 	    }
 	    $type = $scope->getType($node->var);
 		$type = (string) $scope->getMethodReflection($type, $methodName->name)?->getDeclaringClass()->getName();
